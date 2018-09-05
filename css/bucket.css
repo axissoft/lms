@@ -1,0 +1,44 @@
+body{background-color: #f7f8fa;}
+#bucket_container{margin-top: -10px;}
+#bucket_container .tit{font-size: 24px; color: #4c4c4c; font-family:'NotoSansKR-Bold-Hestia'; margin: 10px 0 18px;}
+#bucket_container .desc{font-size: 16px;  font-family:'NotoSansKR-Regular-Hestia'; color: #909090;}
+#bucket_container .location{float: right; margin-top: 22px;}
+#bucket_container .location li{display: inline-block; font-family:'NotoSansKR-Bold-Hestia'; font-size: 12px;}
+#bucket_container .location li:last-child{color: #b7b7b7;}
+#bucket_container .con1_top{border-bottom: 1px solid #292929; margin-bottom: 28px; padding-bottom: 8px; margin-top: 50px;}
+#bucket_container .con1_bottom{width: 870px; position: relative;}
+#bucket_container .con1_bottom .right{width: 270px; position: absolute; top: 0; right: -34%;}
+#bucket_container .con1_bottom .right.stop{position: absolute; top: 1100px;}
+#bucket_container .con1_bottom .right_up .stit{font-size: 26px; font-family:'NotoSansKR-Regular-Hestia'; margin-bottom: 44px;}
+#bucket_container .con1_bottom .right_up .category_list li{border-bottom: 1px solid #d8d9dc; padding: 18px 0 18px; width: 270px; display: inline-block; font-size: 14px; font-family:'NotoSansKR-Medium-Hestia'; line-height: 8px;}
+#bucket_container .con1_bottom .right_up .category_list li img{opacity: 0;}
+#bucket_container .con1_bottom .right_up .category_list li:hover img{opacity: 1;}
+#bucket_container .con1_bottom .right_up .category_list{margin-bottom: 94px; }
+#bucket_container .con1_bottom table{border: 1px solid #dedfe1; margin: 26px 0;}
+#bucket_container .con1_bottom table th,#bucket_container .con1_bottom table td{border-right: 1px solid #dedfe1; vertical-align: middle; text-align: center;}
+#bucket_container .con1_bottom table td:last-child{cursor: pointer;}
+#bucket_container .con1_bottom table .img{padding: 20px 16px;}
+#bucket_container .con1_bottom table th{background-color: #fff; font-size: 15px; font-family:'NotoSansKR-Medium-Hestia'; padding: 18px 24px;}
+#bucket_container .con1_bottom table .lec_tit{text-align: left; padding: 0 28px;}
+#bucket_container .con1_bottom table .lec_tit li{font-size: 13px; font-family:'NotoSansKR-Regular-Hestia'; color: #4d4d4d; line-height: 20px;}
+#bucket_container .con1_bottom table .lec_tit li:nth-child(1){font-size: 12px; font-family:'NotoSansKR-Bold-Hestia'; color: #b89561;}
+#bucket_container .con1_bottom table .lec_tit li:nth-child(2){font-size: 19px; font-family:'NotoSansKR-Medium-Hestia'; color: #303030; margin-bottom: 14px;}
+#bucket_container .con1_bottom table .num{font-size: 14px; font-family:'NotoSansKR-Medium-Hestia';}
+#bucket_container .con1_bottom table select{width: 80px; height: 28px; background-color: #fff; border: 1px solid #dedfe1; padding: 0 20px 0 26px; font-size: 14px; font-family:'NotoSansKR-Medium-Hestia';}
+#bucket_container .con1_bottom table .price{font-size: 18px; font-family:'NotoSansKR-Bold-Hestia'; color: #303030;}
+#bucket_container .t_price{background-color: #fff; padding: 32px 20px; margin-bottom: 100px;}
+#bucket_container .t_price .total{font-family:'NotoSansKR-Regular-Hestia'; font-size: 28px; color: #303030; border-bottom: 1px solid #40404c; padding-bottom: 28px;}
+#bucket_container .t_price .total strong{font-family:'NotoSansKR-Bold-Hestia'; color: #b89561;}
+#bucket_container .t_price .total span{float: right;}
+#bucket_container .t_price .purchase{padding: 12px 70px; background-color: #b89561; font-family:'NotoSansKR-Medium-Hestia'; font-size: 17px; color: #fff; display: inline-block; margin-top: 20px; float: right;}
+
+
+#bucket_container .m_bucket{margin: 60px 0; display: none;}
+#bucket_container .m_bucket ul{margin: 20px 0;}
+#bucket_container .m_bucket .m_img{float: left; margin-right: 20px;}
+#bucket_container .m_bucket li{font-size: 16px; font-family:'NotoSansKR-Regular-Hestia'; margin-bottom: 10px;}
+#bucket_container .m_bucket li:nth-child(2){font-size: 12px;}
+#bucket_container .m_bucket li:nth-child(3){font-size: 18px;}
+#bucket_container .m_bucket li:nth-child(5){float: left; margin: 4px 4% 0 0;}
+#bucket_container .m_bucket li select{width: 80px; height: 28px; background-color: #fff; border: 1px solid #dedfe1; padding: 0 20px 0 26px;}
+#bucket_container .m_bucket .price{float: left; margin-right: 10%}

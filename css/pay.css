@@ -1,0 +1,86 @@
+body{background-color: #f7f8fa;}
+#pay_container{margin-top: -10px;}
+#pay_container .tit{font-size: 24px; color: #4c4c4c; font-family:'NotoSansKR-Bold-Hestia'; margin: 10px 0 18px;}
+#pay_container .desc{font-size: 16px;  font-family:'NotoSansKR-Regular-Hestia'; color: #909090;}
+#pay_container .location{float: right; margin-top: 22px;}
+#pay_container .location li{display: inline-block; font-family:'NotoSansKR-Bold-Hestia'; font-size: 12px;}
+#pay_container .location li:last-child{color: #b7b7b7;}
+#pay_container .con1_top{border-bottom: 1px solid #292929; margin-bottom: 28px; padding-bottom: 8px; margin-top: 50px;}
+#pay_container .con1_bottom{width: 870px; position: relative;}
+#pay_container .con1_bottom .right{width: 270px; position: absolute; top: 0; right: -34%;}
+#pay_container .con1_bottom .right.stop{position: absolute; top: 1100px;}
+#pay_container .con1_bottom .right_up .stit{font-size: 26px; font-family:'NotoSansKR-Regular-Hestia'; margin-bottom: 44px;}
+#pay_container .con1_bottom .right_up .category_list li{border-bottom: 1px solid #d8d9dc; padding: 18px 0 18px; width: 270px; display: inline-block; font-size: 14px; font-family:'NotoSansKR-Medium-Hestia'; line-height: 8px;}
+#pay_container .con1_bottom .right_up .category_list li img{opacity: 0;}
+#pay_container .con1_bottom .right_up .category_list li:hover img{opacity: 1;}
+#pay_container .con1_bottom .right_up .category_list{margin-bottom: 94px; }
+#pay_container .con1_bottom table{border: 1px solid #dedfe1; margin: 26px 0;}
+#pay_container .con1_bottom table th,#pay_container .con1_bottom table td{border-right: 1px solid #dedfe1; vertical-align: middle; text-align: center;}
+#pay_container .con1_bottom table td:last-child{cursor: pointer;}
+#pay_container .con1_bottom table .img{padding: 20px 16px;}
+#pay_container .con1_bottom table th{background-color: #fff; font-size: 15px; font-family:'NotoSansKR-Medium-Hestia'; padding: 18px 24px;}
+#pay_container .con1_bottom table .lec_tit{text-align: left; padding: 0 28px;}
+#pay_container .con1_bottom table .lec_tit li{font-size: 13px; font-family:'NotoSansKR-Regular-Hestia'; color: #4d4d4d; line-height: 20px;}
+#pay_container .con1_bottom table .lec_tit li:nth-child(1){font-size: 12px; font-family:'NotoSansKR-Bold-Hestia'; color: #b89561;}
+#pay_container .con1_bottom table .lec_tit li:nth-child(2){font-size: 19px; font-family:'NotoSansKR-Medium-Hestia'; color: #303030; margin-bottom: 14px;}
+#pay_container .con1_bottom table .num{font-size: 14px; font-family:'NotoSansKR-Medium-Hestia';}
+#pay_container .con1_bottom table select{width: 80px; height: 28px; background-color: #fff; border: 1px solid #dedfe1; padding: 0 20px 0 26px; font-size: 14px; font-family:'NotoSansKR-Medium-Hestia';}
+#pay_container .con1_bottom table .price{font-size: 18px; font-family:'NotoSansKR-Bold-Hestia'; color: #303030;}
+#pay_container .discount div{margin: 0;}
+#pay_container .discount .coupon{padding: 20px 18px; border: 1px solid #e5e5e5; background-color: #fff; width: 425px; margin-bottom: 20px;}
+#pay_container .discount .coupon:first-child{margin-right: 20px;}
+#pay_container .discount .coupon li:nth-child(1){font-size: 22px; font-family:'NotoSansKR-Bold-Hestia'; color: #303030;}
+#pay_container .discount .coupon li:nth-child(2){font-family:'NotoSansKR-Regular-Hestia'; font-size: 14px; color: #606060; margin: 18px 0 28px;}
+#pay_container .discount .coupon li:nth-child(3){float: left; width: 69%; margin-right: 5px;}
+#pay_container .discount .coupon li:nth-child(3) input{width: 100%; height: 40px;}
+#pay_container .discount .coupon li:nth-child(4){font-size: 17px; font-family:'NotoSansKR-Regular-Hestia'; padding: 12px 10px; background-color: #303030; color: #fff; display: inline-block; cursor: pointer;}
+#pay_container .con1_bottom .t_price{background-color: #f0f0f4; padding: 22px 20px; margin-bottom: 74px;}
+#pay_container .con1_bottom .t_price p{font-size: 28px; font-family:'NotoSansKR-Medium-Hestia'; color: #303030; margin-bottom: 32px;}
+#pay_container .con1_bottom .s_price li{font-family:'NotoSansKR-Light-Hestia'; font-size: 20px; padding-bottom: 20px;}
+#pay_container .con1_bottom .s_price li img{margin: 0 5px 5px 0;}
+#pay_container .con1_bottom .s_price li p{font-family:'NotoSansKR-Bold-Hestia'; font-size: 28px; float: right; margin: 0;}
+#pay_container .con1_bottom .s_price li p span{font-family:'NotoSansKR-Regular-Hestia'; font-size: 16px;}
+#pay_container .con1_bottom .s_price{border-bottom: 1px solid #40404c;}
+#pay_container .con1_bottom .total_p{margin-top: 22px;}
+#pay_container .con1_bottom .total_p li{font-family:'NotoSansKR-Bold-Hestia'; font-size: 30px; color: #b89561;}
+#pay_container .con1_bottom .total_p li:nth-child(1){float: left;}
+#pay_container .con1_bottom .total_p li:nth-child(2){float: right;}
+#pay_container .con1_bottom .total_p li:nth-child(2) span{font-family:'NotoSansKR-Regular-Hestia'; font-size: 16px;}
+
+
+#pay_container .con1_bottom .info p{padding: 10px 12px 10px 20px; background-color: #303030; color: #fff; font-family:'NotoSansKR-Medium-Hestia'; font-size: 24px; margin-bottom: 34px;}
+#pay_container .con1_bottom .info p span{display: block; float: right; font-family:'NotoSansKR-Regular-Hestia'; font-size: 16px;}
+#pay_container .con1_bottom .info li{font-family:'NotoSansKR-Medium-Hestia'; font-size: 20px; color: #333333;}
+#pay_container .con1_bottom .info li input::placeholder{font-size: 18px; font-family:'NotoSansKR-Medium-Hestia'; color: #b5b5b5;}
+#pay_container .con1_bottom .info li span{margin: 0 8px;}
+#pay_container .con1_bottom .info li:nth-child(1){font-family:'NotoSansKR-Medium-Hestia'; font-size: 20px; color: #b89561; margin-bottom: 32px;}
+#pay_container .con1_bottom .info li img{margin: 0 0 5px 5px;;}
+#pay_container .con1_bottom .info li:nth-child(1) img{margin: 0 10px 0 0;}
+#pay_container .con1_bottom .info li input{height: 40px; border: 1px solid #999999; margin: 6px 0 26px; width: 30%;}
+#pay_container .con1_bottom .info .phone input,#pay_container .con1_bottom .info .email input{width: 22%;}
+#pay_container .con1_bottom .info .email select{background-color: #eeeeee; border: 1px solid #999999; margin-left: 28px;}
+#pay_container .con1_bottom .info .add{line-height: 18px;}
+#pay_container .con1_bottom .info .add input{margin-bottom: 13px;}
+#pay_container .con1_bottom .info li .find_add{background-color: #bdbdc1; color: #fff; width: 20%; height: 40px; text-align: center; display: inline-block; margin: 0 0 0 10px; cursor: pointer;} 
+#pay_container .con1_bottom .info li:nth-child(10){font-size: 16px;}
+#pay_container .con1_bottom .info .d_add input{width: 100%;}
+#pay_container .con1_bottom .info .memo textarea{width: 100%; height: 300px; background-color: #fff; border: 1px solid #999999; padding: 10px 14px; margin: 10px 0 80px 0;}
+#pay_container .con1_bottom .method{background-color: #fdfdfd; margin-bottom: 80px;}
+#pay_container .con1_bottom .method .tit{background-color: #303030; color: #fff; font-family:'NotoSansKR-Medium-Hestia'; font-size: 24px; padding: 10px 0 10px 20px;}
+#pay_container .con1_bottom .method input{float: left; margin: 0 12px 0 20px; width: 18px; height: 18px;}
+#pay_container .con1_bottom .method input[type="radio"]{background-color: #fff; border: 1px solid #cdcdcd;}
+#pay_container .con1_bottom .method .desc{font-family:'OpenSans-Bold'; font-size: 18px; color: #666666;}
+#pay_container .con1_bottom .method .desc span{display: block; font-family:'NotoSansKR-Regular-Hestia'; font-size: 13px; width: 32%; margin: 15px 0 0 45px;}
+#pay_container .con1_bottom .method li{margin-bottom: 30px;}
+#pay_container .con1_bottom .method .s_pay{float: right; font-family:'NotoSansKR-Medium-Hestia'; font-size: 30px; color: #fff; background-color: #b89561; padding: 22px 98px; margin: 0 30px 38px 0; cursor: pointer;}
+
+
+#pay_container .m_pay{margin: 60px 0; display: none;}
+#pay_container .m_pay ul{margin: 20px 0;}
+#pay_container .m_pay .m_img{float: left; margin-right: 20px;}
+#pay_container .m_pay li{font-size: 16px; font-family:'NotoSansKR-Regular-Hestia'; margin-bottom: 10px;}
+#pay_container .m_pay li:nth-child(2){font-size: 12px;}
+#pay_container .m_pay li:nth-child(3){font-size: 18px;}
+#pay_container .m_pay li:nth-child(5){float: left; margin: 4px 4% 0 0;}
+#pay_container .m_pay li select{width: 80px; height: 28px; background-color: #fff; border: 1px solid #dedfe1; padding: 0 20px 0 26px;}
+#pay_container .m_pay .price{float: left; margin-right: 10%}

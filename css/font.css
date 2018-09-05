@@ -1,0 +1,66 @@
+@font-face{
+    font-family:'NotoSansKR-Black-Hestia';
+    src:url('../font/NotoSansKR-Black-Hestia.eot');
+    src:url('../font/NotoSansKR-Black-Hestia.otf') format('opentype'),
+        url('../font/NotoSansKR-Black-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR-Bold-Hestia';
+    src:url('../font/NotoSansKR-Bold-Hestia.eot');
+    src:url('../font/NotoSansKR-Bold-Hestia.otf') format('opentype'),
+        url('../font/NotoSansKR-Bold-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR-DemiLight-Hestia';
+    src:url('../font/NotoSansKR-DemiLight-Hestia.eot');
+    src:url('../font/NotoSansKR-DemiLight-Hestia.otf') format('opentype'),
+        url('../font/NotoSansKR-DemiLight-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR-Light-Hestia';
+    src:url('../font/NotoSansKR-Light-Hestia.eot');
+    src:url('../font/NotoSansKR-Light-Hestia.otf') format('opentype'),
+        url('../font/NotoSansKR-Light-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR-Medium-Hestia';
+    src:url('../font/NotoSansKR-Medium-Hestia.eot');
+    src:url('../font/NotoSansKR-Medium-Hestia.otf') format('opentype'),
+        url('../font/NNotoSansKR-Medium-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR-Regular-Hestia';
+    src:url('../font/NotoSansKR-Regular-Hestia.eot');
+    src:url('../font/NotoSansKR-Regular-Hestia.otf') format('opentype'),
+        url('../font/NotoSansKR-Regular-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR-Thin-Hestia';
+    src:url('../font/NotoSansKR-Thin-Hestia.eot');
+    src:url('../font/NotoSansKR-Thin-Hestia.otf') format('opentype'),
+        url('../font/NotoSansKR-Thin-Hestia.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'OpenSans-Bold';
+    src:url('../font/OpenSans-Bold.eot');
+    src:url('../font/OpenSans-Bold.ttf') format('truetype'),
+        url('../font/OpenSans-Bold.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+

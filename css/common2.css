@@ -1,0 +1,86 @@
+#header{background-color: #0a0a0a; color: #fff;}
+#header .header_up{padding: 20px 20%; border-bottom: 1px solid #2d1e2d;}
+#header .header_up .h_left{float: left; font-family:'NotoSansKR-Regular-Hestia'; font-size: 14px;}
+#header .header_up .h_left p{display: inline-block; margin-right: 18px;}
+#header .header_up .h_left ul{display: inline-block;}
+#header .header_arrow li{display: inline-block; cursor: pointer;}
+#header .header_arrow li:first-child{margin-left: 20px;}
+#header .header_arrow li img{border: 1px solid #362136;}
+#header .header_up .h_right{float: right;}
+#header .header_up .h_right li{display: inline-block; margin-right: 24px; font-family:'NotoSansKR-Regular-Hestia'; font-size: 13px;}
+#header .header_down{padding: 18px 0;}
+#header .header_down .logo{float: left;}
+#header .header_down .logo img{width: 100px;}
+#header .header_down ul{float: right;}
+#header .header_down ul li{display: inline-block;}
+#header .head_text{text-align: right;}
+#header .head_text .text{font-size: 22px; margin-right: 20px;}
+#header .text2{font-size: 12px;}
+#header .text2 strong{color: #b89561;}
+#header .text2 span{margin: 0 10px 0 4px; color: #adb5c2;}
+#header li{display: inline-block; font-weight: bold;}
+#header .head_gnb{background-color: #fff; padding: 14px; margin-top: 14px; border: 1px solid #dddee2;}
+#header .head_gnb li{border-right: 1px solid #f0f0f0; padding: 0 16px;}
+#header .head_gnb .head_gnb_left{font-size: 16px; float: left;}
+#header .head_gnb .head_gnb_left li:last-child{border: none;}
+#header .head_gnb .head_gnb_right li:last-child{border: none;}
+#header .head_gnb .head_gnb_right{font-size: 14px; float: right; text-align: right;}
+#header .head_gnb .head_gnb_right .num{width: 17px; height: 17px; background-color: #b89561; color: #fff; text-align: center; border-radius: 50%; float: right; margin-left: 8px; font-size: 10px; line-height: 15px;}
+
+
+#header .m_menu_btn,#header .m_close{display: none;}
+
+.m_bg{background-color: rgba(32, 32, 32,0.8); width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 11; display: none;}
+
+.m_menu{width: 220px; height: 100%; background-color: #fff; z-index: 12; position: fixed; top: 0; left: -100%; color: #292929;}
+.m_menu .m_logo{padding: 18px 34px;}
+.m_menu .one_depth{position: relative; cursor: pointer; width: 100%;}
+.m_menu .one_depth p{padding: 14px 34px; border-top: 1px solid #dadada; font-size: 20px; font-family:'NotoSansKR-Medium-Hestia';}
+.m_menu .one_depth:last-child p{border-bottom:  1px solid #dadada;}
+.m_menu .one_depth img{position: absolute; right: 30px; margin-top: 6px;}
+.m_menu .one_depth img.rotate{transform: rotate(180deg);}
+.m_menu .join li a{padding: 12px 0; border: 1px solid #202020; margin-top: 10px; width: 198px; display: inline-block; text-align: center; margin-left: 10px; font-size: 20px; font-family:'NotoSansKR-Medium-Hestia';}
+.m_menu .join li a:last-child{font-size: 16px;}
+.m_menu .join li a:last-child img{margin-left: 60px; font-family:'NotoSansKR-Regular-Hestia';}
+.m_menu .two_depth{display: none;}
+.m_menu .two_depth{background-color: #f6f6f6; width: 100%; height: 100%; padding: 20px 0 0 38px; border-top: 1px solid #dadada;}
+.m_menu .two_depth li{padding-bottom: 24px; font-size: 16px; font-family:'NotoSansKR-Medium-Hestia';}
+
+/**************************** 로그인 팝업 ****************************/
+.search_popup{position: fixed; top: 0; left: 0; background-color: rgba(0,0,0,0.9); z-index: 20; width: 100%; height: 100%; padding: 70px 15% 0; display: none;}
+.search_popup .search_pop_logo{float: left;}
+.search_popup .search_close{float: right; line-height: 24px; cursor: pointer;}
+.search_popup .search_close img{margin: 10px 0 0 10px;}
+.search_popup .search{margin-top: 324px; font-size: 30px; font-family:'NotoSansKR-Regular-Hestia'; padding-bottom: 18px; padding-right: 54%; background-color: transparent; border: none;  border-bottom: 1px solid #fff;background-image: url(../images/m_search.png); background-position: center right+20px; background-repeat: no-repeat;}
+.search_popup .search::placeholder{color: #fff;}
+.search_popup > img{float: right; margin-right: 18px; cursor: pointer; margin-top: -38px;}
+/**************************** //로그인 팝업 ****************************/
+
+
+
+#footer{background:#202020; position: relative;}
+#footer .col-md-5{padding:50px 0;}
+#footer .col-md-2{margin:50px 0;border-left:1px solid #39393a; height:180px;}
+#footer .col-md-2 h3{font-family:'NotoSansKR-Regular-Hestia';font-size:15px; color:#fff;margin-bottom:25px;}
+#footer .col-md-2 ul li{margin-bottom:25px;}
+#footer .col-md-2 ul li a{display:block;font-family:'NotoSansKR-Regular-Hestia';font-size:14px; color:#999;}
+
+#footer .col-md-5 >img{display:block;margin-bottom:30px;}
+#footer .col-md-5 > ul li{font-family:'NotoSansKR-Regular-Hestia';font-size:14px; color:#fff;}
+#footer .col-md-5 > ul li ul:after{display:block; content:''; clear:both;}
+#footer .col-md-5 > ul li ul li {float:left;margin-right:5px;}
+#footer .col-md-5 > ul li ul li a.img1{background:url(../images/TW.png) no-repeat left center;padding-left:20px;}
+#footer .col-md-5 > ul li ul li a.img2{background:url(../images/FB.png) no-repeat left center;padding-left:20px;}
+#footer .col-md-5 > ul li ul li a.img3{background:url(../images/INSTA.png) no-repeat left center;padding-left:20px;}
+#footer .col-md-5 > ul li ul li a.img4{background:url(../images/PIN.png) no-repeat left center;padding-left:20px;}
+#footer .top_arrow{position: absolute; top: 452px; right: 300px; cursor: pointer; color: #fff;}
+#footer .top_arrow img{display: block; margin: 0 auto;}
+#footer .col-md-5 > ul > li:nth-child(7) li{font-family:'NotoSansKR-Thin-Hestia';}
+#footer .email{margin: 16px 0;}
+#footer .phone{margin-top: 20px;}
+#footer .f_sns{margin: 30px 0 64px;}
+#footer .f_sns li a{margin-right: 20px; font-family:'NotoSansKR-Thin-Hestia';}
+
+.container-fluid{padding: 0; background-color: #fff;}
+.container-fluid p{font-family:'NotoSansKR-Regular-Hestia';font-size:12px; color:#fff;text-align: center;background:#b89561; padding:44px 0; margin-left: 375px}
+.container-fluid .f_bar{width: 10px; height: 100px; background-color: #9c7f52; float: left; margin-left: 365px;}
